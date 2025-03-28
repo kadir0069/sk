@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Tailwind CSS</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar h-20 bg-orange-400">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Emergancy Software</a></li>
+            <li><a href="#">FTP</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl"><img class="w-18" src="Image/mbsm-logo.png" alt=""></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Emergancy Software</a></li>
+          <li><a href="#">FTP</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a href="#" class="btn btn-ghost bg-sky-400 ">Self Care</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!--Hero start-->
+    <section>
+      <div class="hero min-h-screen"
+        style="background-image: url(Image/mbsm-bg.jpeg)">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-neutral-content text-left">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold ">Best Internet Service Provider</h1>
+            <p class="mb-5 text-2xl ">
+              Empowering businesses with innovative digital solutions. MBSM Enterprise delivers cutting-edge internet services to help you grow and succeed online.
+            </p>
+            <button herf="#" class="btn btn-primary bg-sky-400 border-none">Get Started</button>
+            <button herf="#" class="btn btn-primary bg-orange-400 ml-5 border-none">Pay Bill</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hero end-->
+    <!--Solution start-->
+    <section class="max-w-[900px] mx-auto">
+      <h2 class="text-3xl py-4 font-bold text-black text-center my-4">Our Solutions</h2>
+      <section class="grid sm:grid-cols-1  md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-4">
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <div class="card-body">
+            <h3 class="text-center text-2xl py-2 font-semibold">Home Broadband Internet</h3>
+            <p class="text-center">Experience the epitome of connectivity with Mbsm's Home Broadband Internet. Our service delivers high-speed, reliable internet for seamless streaming, gaming, and remote work. Tailor your online experience with customizable packages designed to meet your specific needs. Enjoy the convenience of robust home internet with the assurance of Mbsm's commitment to excellence and customer satisfaction. Elevate your digital lifestyle and stay connected effortlessly with our Home Broadband Internet solutions,</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <div class="card-body">
+            <h3 class="text-center text-2xl py-2 font-semibold">Home and Network Security</h3>
+            <p class="text-center">Mbsm prioritizes your safety with comprehensive Home and Network Security solutions. Our advanced technologies include CCTV systems, intelligent surveillance, and secure network configurations, ensuring a protected environment. Tailored for homes and businesses, our security solutions offer peace of mind. With Mbsm, you can trust in robust measures that safeguard your property and data, supported by responsive 24/7 assistance. Embrace a secure lifestyle with our cutting-edge Home and Network Security services,</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <div class="card-body">
+            <h3 class="text-center text-2xl py-2 font-semibold">Corporate/SME Internet</h3>
+            <p class="text-center">Elevate your business connectivity with Mbsm's Corporate/SME Internet solutions. We offer dedicated and scalable internet connections to ensure optimal performance for corporate and SME consumers. Our reliable network solutions guarantee stability, while a dedicated support manager provides round-the-clock assistance. Whether you're a large corporation or a small business, Mbsm tailors internet services to meet your unique requirements, delivering a seamless online experience to drive productivity and success in the digital landscape.</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <div class="card-body">
+            <h3 class="text-center text-2xl py-2 font-semibold">Dedicated and Shared Hosting</h3>
+            <p class="text-center">At Mbsm, our hosting services cater to diverse needs with both Dedicated and Shared Hosting options. Dedicated Hosting offers exclusive server resources for enhanced performance, ideal for businesses with high traffic and specific requirements. On the other hand, Shared Hosting allows multiple websites to share server resources, making it a cost-effective choice suitable for smaller ventures. Our robust infrastructure ensures reliable performance, security, and scalability for Dedicated and Shared hosting solutions.</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <div class="card-body">
+            <h3 class="text-center text-2xl py-2 font-semibold">Network Solutions</h3>
+            <p class="text-center">Mbsm offers comprehensive Network Solutions designed to elevate connectivity and efficiency. Our services encompass advanced networking technologies, ensuring seamless communication for businesses. Our expert team ensures robust network architecture, minimizing downtime and optimizing performance. Whether it's implementing scalable infrastructure for corporate entities or enhancing connectivity for SMEs, Mbsm prioritizes reliability and adaptability. With a commitment to 24/7 support,we guarantee responsive assistance.</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <div class="card-body">
+            <h3 class="text-center text-2xl py-2 font-semibold">CCTV and surveillance System Solutions</h3>
+            <p class="text-center">Mbsm excels in CCTV and Surveillance System Solutions, delivering cutting-edge technology for comprehensive security. Our offerings include high-resolution cameras, and remote monitoring. Scalable and adaptable, our solutions cater to diverse needs, ensuring robust surveillance for businesses. Trust Mbsm for advanced, reliable, and customized CCTV solutions.we ensure clients have a vigilant and secure environment, addressing the evolving challenges of modern surveillance needs.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--Solution end-->
+    <!--Card start-->
+    <section class="max-w-[900px] mx-auto">
+      <h2 class="text-3xl py-4 font-bold text-black text-center my-4">Our Most Favorite Package</h2>
+      <p class=" text-2xl text-black text-center font-semibold mb-4">Choose Out Of The Best Pricing Plans For You</p>
+      <section class="grid sm:grid-cols-1  md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-4">
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <figure>
+            <img src="Image/mbsm-pricing-card.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-center">Package-1 </h2>
+            <p class="font-semibold">Facilities That We Provide</p>
+            <ul>
+              <li class="list-disc text-left">100 Mbps BDIX and Other Speed</li>
+              <li class="list-disc text-left">4K Youtube and Facebook Stream.</li>
+              <li class="list-disc text-left">Optical Fiber Connection</li>
+              <li class="list-disc text-left">Gaming Cache 100 Mbps</li>
+              <li class="list-disc text-left">24/7 Phone and Online Support</li>
+              <li class="list-disc text-left">1:8 Contention Ratio</li>
+              <li class="list-disc text-left">Entertainment up-to 120 (MBPS)</li>
+            </ul>
+            <div class="card-actions justify-center">
+              <button class="w-30 h-9 round-2 rounded-r-lg rounded-l-lg bg-sky-400 hover:bg-sky-500 border-none">Save changes</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <figure>
+            <img src="Image/mbsm-pricing-card-2.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-center">Package-2 </h2>
+            <p class="font-semibold">Facilities That We Provide</p>
+            <ul>
+              <li class="list-disc text-left">100 Mbps BDIX and Other Speed</li>
+              <li class="list-disc text-left">4K Youtube and Facebook Stream.</li>
+              <li class="list-disc text-left">Optical Fiber Connection</li>
+              <li class="list-disc text-left">Gaming Cache 100 Mbps</li>
+              <li class="list-disc text-left">24/7 Phone and Online Support</li>
+              <li class="list-disc text-left">1:8 Contention Ratio</li>
+              <li class="list-disc text-left">Entertainment up-to 120 (MBPS)</li>
+            </ul>
+            <div class="card-actions justify-center">
+              <button class="w-30 h-9 round-2 rounded-r-lg rounded-l-lg bg-sky-400 hover:bg-sky-500">Save changes</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <figure>
+            <img src="Image/mbsm-pricing-card-3.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-center">Package-3 </h2>
+            <p class="font-semibold">Facilities That We Provide</p>
+            <ul>
+              <li class="list-disc text-left">100 Mbps BDIX and Other Speed</li>
+              <li class="list-disc text-left">4K Youtube and Facebook Stream.</li>
+              <li class="list-disc text-left">Optical Fiber Connection</li>
+              <li class="list-disc text-left">Gaming Cache 100 Mbps</li>
+              <li class="list-disc text-left">24/7 Phone and Online Support</li>
+              <li class="list-disc text-left">1:8 Contention Ratio</li>
+              <li class="list-disc text-left">Entertainment up-to 120 (MBPS)</li>
+            </ul>
+            <div class="card-actions justify-center">
+              <button class="w-30 h-9 round-2 rounded-r-lg rounded-l-lg bg-sky-400 hover:bg-sky-500">Save changes</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <figure>
+            <img src="Image/mbsm-pricing-card-4.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-center">Corporate Package-1 </h2>
+            <p class="font-semibold">Facilities That We Provide</p>
+            <ul>
+              <li class="list-disc text-left">100 Mbps BDIX and Other Speed</li>
+              <li class="list-disc text-left">4K Youtube and Facebook Stream.</li>
+              <li class="list-disc text-left">Optical Fiber Connection</li>
+              <li class="list-disc text-left">Gaming Cache 100 Mbps</li>
+              <li class="list-disc text-left">24/7 Phone and Online Support</li>
+              <li class="list-disc text-left">1:8 Contention Ratio</li>
+              <li class="list-disc text-left">Entertainment up-to 120 (MBPS)</li>
+            </ul>
+            <div class="card-actions justify-center">
+              <button class="w-30 h-9 round-2 rounded-r-lg rounded-l-lg bg-sky-400 hover:bg-sky-500">Save changes</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <figure>
+            <img src="Image/mbsm-pricing-card-5.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-center">Corporate Package-2 </h2>
+            <p class="font-semibold">Facilities That We Provide</p>
+            <ul>
+              <li class="list-disc text-left">100 Mbps BDIX and Other Speed</li>
+              <li class="list-disc text-left">4K Youtube and Facebook Stream.</li>
+              <li class="list-disc text-left">Optical Fiber Connection</li>
+              <li class="list-disc text-left">Gaming Cache 100 Mbps</li>
+              <li class="list-disc text-left">24/7 Phone and Online Support</li>
+              <li class="list-disc text-left">1:8 Contention Ratio</li>
+              <li class="list-disc text-left">Entertainment up-to 120 (MBPS)</li>
+            </ul>
+            <div class="card-actions justify-center">
+              <button class="w-30 h-9 round-2 rounded-r-lg rounded-l-lg bg-sky-400 hover:bg-sky-500">Save changes</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl mx-2">
+          <figure>
+            <img src="Image/mbsm-pricing-card-6.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-center">Corporate Package-3 </h2>
+            <p class="font-semibold">Facilities That We Provide</p>
+            <ul>
+              <li class="list-disc text-left">100 Mbps BDIX and Other Speed</li>
+              <li class="list-disc text-left">4K Youtube and Facebook Stream.</li>
+              <li class="list-disc text-left">Optical Fiber Connection</li>
+              <li class="list-disc text-left">Gaming Cache 100 Mbps</li>
+              <li class="list-disc text-left">24/7 Phone and Online Support</li>
+              <li class="list-disc text-left">1:8 Contention Ratio</li>
+              <li class="list-disc text-left">Entertainment up-to 120 (MBPS)</li>
+            </ul>
+            <div class="card-actions justify-center">
+              <button class="w-30 h-9 round-2 rounded-r-lg rounded-l-lg bg-sky-400 hover:bg-sky-500">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--Card end-->
+    <!--Coverage Start-->
+    <section class="py-10">
+      <div class="hero h-90"
+      style="background-image: url(Image/mbsm-coverrage-cheack.jpg); background-size: 100% 300px; background-repeat: no-repeat; background-size: cover;">
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-neutral-content">
+        <div>
+          <h3 class="text-center text-3xl font-semibold">Ready to start? Locate our coverage area</h3>
+          <p class="text-center text-white">Mbsm is spread almost everywhere in Shyamnagar upozila. Check the availability of all coverage areas in Shyamnagar.</p>
+          <div class="flex justify-center mt-5">
+            <button class="btn btn-primary bg-sky-400 border-none ">Check Coverage</button>
+        </div>
+      </div>
+    </section>
+    <!--Coverage end-->
+    <!--Why choose us start-->
+    <section class="py-10">
+      <div class="hero-content">
+        <div>
+          <h3 class="text-center text-3xl font-semibold text-balck">Why Choose Us</h3>
+          <p class="text-center text-balck">Why Choose Us Choose Mbsm for unparalleled internet services. Experience blazing-fast speeds, reliable connectivity, and customizable packages. Our commitment to excellence ensures a seamless online experience, backed by responsive support for all your internet needs.</p>
+        </div>
+      </div>
+    </section>
+    <section class="grid sm:grid-cols-1  md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-4">
+      <div class="card bg-base-100 shadow-xl mx-2">
+        <div class="card-body">
+          <h3 class="text-center text-2xl py-2 font-semibold">Multiple Upstream</h3>
+          <p class="text-center">Mbsm Internet offers enhanced reliability with multiple upstream connections. Benefit from redundant pathways, ensuring a robust network that minimizes downtime and provides consistent, high-quality connectivity.
+          </p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl mx-2">
+        <div class="card-body">
+          <h3 class="text-center text-2xl py-2 font-semibold">Multiples CDN Peering</h3>
+          <p class="text-center">MBSM optimizes content delivery with multiple CDN peering connections. Benefit from diversified content distribution networks, ensuring faster load times and efficient delivery of online content for an enhanced user experience.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl mx-2">
+        <div class="card-body">
+          <h3 class="text-center text-2xl py-2 font-semibold">Gaming Route Optimization</h3>
+          <p class="text-center">Maximize your gaming experience with MBSM's route optimization. Our advanced technology ensures low-latency routes, minimizing lag and providing gamers with a seamless, responsive, and immersive online gaming environment.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl mx-2">
+        <div class="card-body">
+          <h3 class="text-center text-2xl py-2 font-semibold">Multiple NIX Connectivity</h3>
+          <p class="text-center">MBSM Internet delivers enhanced connectivity with Multiple NIX (Network Internet Exchange) connections. Benefit from diverse pathways, ensuring reliable and efficient network performance for a seamless online experience.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl mx-2">
+        <div class="card-body">
+          <h3 class="text-center text-2xl py-2 font-semibold">Realtime Monitoring</h3>
+          <p class="text-center">Ensure security and performance with MBSM's Real-time Monitoring. Gain instant insights into network activities, enabling proactive measures for optimal performance, stability, and a secure online environment.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl mx-2">
+        <div class="card-body">
+          <h3 class="text-center text-2xl py-2 font-semibold">Better Uptime</h3>
+          <p class="text-center">MBSM Internet ensures superior uptime, providing a reliable and uninterrupted online experience. Trust in our robust infrastructure for consistently stable connectivity, ensuring you stay connected without disruptions.</p>
+        </div>
+      </div>
+    </section>
+    <!--Why choose us End-->
+    <!--Author Identiy Start-->
+    <section>
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-2 gap-4 sm:gap-4 mx-1 py-4">
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img
+              src="Image/Author-1.png"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Shoes!
+              <div class="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">Fashion</div>
+              <div class="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Shoes!
+              <div class="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">Fashion</div>
+              <div class="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Author Identiy End-->
+    <!--FAQS Start-->
+    <section>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+    </section>
+    <!--FAQS End-->
+  </main>
+</body>
+
+</html>
